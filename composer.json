@@ -1,0 +1,31 @@
+{
+	"name": "github/my_plugin",
+	"type": "elgg-plugin",
+	"description": "Skeleton Elgg plugin",
+    "license": "GPL-2.0-only",
+	"keywords": ["development"],
+	"homepage": "https://your-cool-site",
+	"authors": [
+		{
+		  "name": "Your name",
+		  "email": "your@email.address"
+		}
+	],
+	"autoload": {
+		"psr-0": {
+			"": "classes/"
+		}
+	},
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+	"require": {
+		"composer/installers": "^1.0.8"
+	},
+	"conflict": {
+		"elgg/elgg": "<5.0"
+	}
+}
