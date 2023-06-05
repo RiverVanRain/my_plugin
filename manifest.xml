@@ -4,16 +4,19 @@
 	<name>My Plugin</name>
 	<id>my_plugin</id>
 	
+	<version>3.0</version>
+	
 	<description>Skeleton Elgg plugin</description>
-
-	<version>2.0</version>
+	<category>development</category>
 
 	<author>Your name</author>
-	<website>http://your-cool-site</website>
+	<website>https://your-cool-site</website>
+	<copyright>(c) 2020 Your brandname</copyright>
+	<license>GNU General Public License version 2</license>
 
 	<requires>
 		<type>elgg_release</type>
-		<version>2.3</version>
+		<version>3.3</version>
 	</requires>
 	
 </plugin_manifest>
