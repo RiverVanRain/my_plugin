@@ -3,7 +3,7 @@
 return [
 	'plugin' => [
 		'name' => 'My Plugin',
-		'version' => '5.0',
+		'version' => '6.0',
 		'activate_on_install' => true,
 	],
 	
